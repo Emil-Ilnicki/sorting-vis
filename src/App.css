@@ -1,5 +1,32 @@
+.app-container {
+  margin: 0 auto;
+  width: 50%;
+}
+
 .array-container {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  background-color: #e7e7e7;
+  border: none;
+  color: black;
+  padding: 1em 1em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1em;
+  margin: 2em 2em;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(190, 190, 190);
 }
